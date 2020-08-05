@@ -2,7 +2,7 @@
 
 [![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://justboil.github.io/bulma-checkbox/)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.github.io/bulma-checkbox/)
 
-[![Responsive tables for Bulma CSS Framework](https://justboil.me/images/bulma-checkbox/repository-preview-hi-res.png?v=1.1)](https://justboil.github.io/bulma-checkbox/)
+[![Custom checkbox controls for Bulma CSS Framework](https://justboil.me/images/bulma-checkbox/repository-preview-hi-res.png?v=1.1)](https://justboil.github.io/bulma-checkbox/)
 
 **Custom checkbox controls for Bulma CSS Framework** &mdash; Pure HTML & CSS/SCSS.
 
@@ -88,7 +88,7 @@ The issue list is reserved exclusively for bug reports and feature requests. Tha
 
 ## Credits
 
-Based on [Buefy's](https://github.com/buefy/buefy) table component for Vue.js & Bulma CSS Framework released under MIT License (Copyright &copy; 2017-2020 [Walter Tommasi](https://github.com/jtommy); Copyright &copy; 2017-2020 [Rafael Beraldo](https://github.com/rafaelpimpa))
+Based on [Buefy's](https://github.com/buefy/buefy) component for Vue.js & Bulma CSS Framework released under MIT License (Copyright &copy; 2017-2020 [Walter Tommasi](https://github.com/jtommy); Copyright &copy; 2017-2020 [Rafael Beraldo](https://github.com/rafaelpimpa))
 
 ## Useful Links
 
