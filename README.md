@@ -1,6 +1,6 @@
 # Bulma Custom Checkbox
 
-[![version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://justboil.github.io/bulma-checkbox/)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.github.io/bulma-checkbox/)
+[![version](https://img.shields.io/npm/v/bulma-radio.svg)](https://www.npmjs.com/package/bulma-checkbox)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.github.io/bulma-checkbox/)
 
 [![Custom checkbox controls for Bulma CSS Framework](https://justboil.me/images/bulma-checkbox/repository-preview-hi-res.png?v=1.1)](https://justboil.github.io/bulma-checkbox/)
 
@@ -10,8 +10,8 @@
 * Pure HTML & CSS/SCSS
 * Built for Bulma CSS Framework
 * No js framework dependencies
+* Ready-to-use CSS
 * SCSS sources with variables
-* Preconfigured webpack
 
 ## Table of Contents
 
@@ -44,7 +44,7 @@ Use with scss
 /* Bulma */
 @import "~bulma/bulma";
 
-/* Bulma Responsive Tables */
+/* Bulma Checkbox */
 @import "~bulma-checkbox";
 ```
 
@@ -55,7 +55,8 @@ You may just copy pre-compiled css file from the repository https://github.com/j
 ```html
 <!-- Bulma -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-<!-- Bulma Responsive Tables -->
+
+<!-- Bulma Checkbox -->
 <link rel="stylesheet" href="%SOME-LOCAL-PATH%/bulma-checkbox/css/main.min.css">
 ```
 
