@@ -41,11 +41,11 @@ $ npm i bulma-checkbox --save
 Use with scss
 
 ```scss
-/* Bulma */
-@import "node_modules/bulma/bulma";
-
 /* Bulma Checkbox */
 @import "node_modules/bulma-checkbox/bulma-checkbox";
+
+/* Bulma */
+@import "node_modules/bulma/bulma";
 ```
 
 ### ... or use as CSS

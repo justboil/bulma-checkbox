@@ -1,6 +1,6 @@
 {
   "name": "bulma-checkbox",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Custom checkbox controls for Bulma CSS Framework",
   "homepage": "https://justboil.me/",
   "main": "bulma-checkbox.scss",
