@@ -1,6 +1,6 @@
 # Bulma Custom Checkbox
 
-[![version](https://img.shields.io/npm/v/bulma-radio.svg)](https://www.npmjs.com/package/bulma-checkbox)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.github.io/bulma-checkbox/)
+[![version](https://img.shields.io/npm/v/bulma-checkbox.svg)](https://www.npmjs.com/package/bulma-checkbox)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.github.io/bulma-checkbox/)
 
 [![Custom checkbox controls for Bulma CSS Framework](https://justboil.me/images/bulma-checkbox/repository-preview-hi-res.png?v=1.1)](https://justboil.github.io/bulma-checkbox/)
 
@@ -42,15 +42,15 @@ Use with scss
 
 ```scss
 /* Bulma */
-@import "~bulma/bulma";
+@import "node_modules/bulma/bulma";
 
 /* Bulma Checkbox */
-@import "~bulma-checkbox";
+@import "node_modules/bulma-checkbox/bulma-checkbox";
 ```
 
 ### ... or use as CSS
 
-You may just copy pre-compiled css file from the repository https://github.com/justboil/bulma-checkbox/tree/master/css or node_modules `node_modules/bulma-checkbox/css` and use it in HTML
+You may just copy pre-compiled `main.css` or `main.min.css` file from the [repository](https://github.com/justboil/bulma-checkbox/tree/master/css) or from `node_modules/bulma-checkbox/css` folder and use it in HTML
 
 ```html
 <!-- Bulma -->
@@ -76,7 +76,7 @@ JustBoil's free items are limited to community support on GitHub.
 
 The issue list is reserved exclusively for bug reports and feature requests. That means we do not accept usage questions. If you open an issue that does not conform to the requirements, it will be closed.
 
-1. Make sure that you are using the latest version of the package
+1. Make sure you are using the latest version of the package
 2. Provide steps to reproduce
 3. Provide an expected behavior
 4. Describe what is actually happening 
