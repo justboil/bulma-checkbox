@@ -33,7 +33,7 @@
       &:checked + .check {
         background: $checkbox-active-background-color url(checkmark($checkbox-checkmark-color)) no-repeat center center;
         border-color: $checkbox-active-background-color;
-        @each $name, $pair in $colors {
+        @each $name, $pair in $checkbox-colors {
           $color: nth($pair, 1);
           $color-invert: nth($pair, 2);
           &.is-#{$name} {
@@ -42,11 +42,10 @@
           }
         }
       }
-
-      &.is-indeterminate + .check {
+      &:indeterminate + .check, &.is-indeterminate + .check {
         background: $checkbox-active-background-color url(indeterminate($checkbox-checkmark-color)) no-repeat center center;
         border-color: $checkbox-active-background-color;
-        @each $name, $pair in $colors {
+        @each $name, $pair in $checkbox-colors {
           $color: nth($pair, 1);
           $color-invert: nth($pair, 2);
           &.is-#{$name} {
@@ -57,19 +56,13 @@
       }
 
       &:focus {
-        @if $checkbox-has-shadows == 1 {
           + .check {
             box-shadow: 0 0 0.5em rgba($grey, 0.8);
           }
-        }
-
         &:checked + .check {
-          @if $checkbox-has-shadows == 1 {
             box-shadow: 0 0 0.5em rgba($checkbox-active-background-color, 0.8);
-          }
-          @each $name, $pair in $colors {
+          @each $name, $pair in $checkbox-colors {
             $color: nth($pair, 1);
-            @if $checkbox-has-shadows == 1 {
               &.is-#{$name} {
                 box-shadow: 0 0 0.5em rgba($color, 0.8);
               }
@@ -77,10 +70,8 @@
           }
         }
       }
-    }
-
     .control-label {
-      padding-left: 0.5em;
+      padding-left: $control-padding-horizontal;
     }
 
     &.button {
@@ -94,7 +85,7 @@
     &:hover {
       input[type=checkbox]:not(:disabled) + .check {
         border-color: $checkbox-active-background-color;
-        @each $name, $pair in $colors {
+        @each $name, $pair in $checkbox-colors {
           $color: nth($pair, 1);
           &.is-#{$name} {
             border-color: $color;
