@@ -93,6 +93,6 @@ Based on [Buefy's](https://github.com/buefy/buefy) component for Vue.js & Bulma 
 
 ## Useful Links
 
-- [JustBoil.me](https://justboil.me)
+- [Bulma admin templates](https://justboil.me/bulma-admin-template/)
 - [Bulma](https://bulma.io)
 - [Buefy](https://buefy.org)
