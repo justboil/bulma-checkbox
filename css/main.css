@@ -35,7 +35,7 @@
   height: 1.25em;
   flex-shrink: 0;
   border-radius: 4px;
-  border: 1px solid #7a7a7a;
+  border: 2px solid #7a7a7a;
   transition: background 150ms ease-out;
   background: transparent;
 }
