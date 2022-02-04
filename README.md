@@ -84,7 +84,7 @@ The issue list is reserved exclusively for bug reports and feature requests. Tha
 
 ## Licensing
 
-* Copyright &copy; 2020 Viktor Kuzhelny (https://github.com/vikdiesel)
+* Copyright &copy; 2022 Viktor Kuzhelny (https://github.com/vikdiesel)
 * Licensed under MIT
 
 ## Credits
